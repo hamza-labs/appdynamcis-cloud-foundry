@@ -1,6 +1,6 @@
 ### Monitor your cloud foundry application using appDynamics:
 
-This markdown shows you how to integrate AppDynamics with Cloud Foundry (Stackato, Community or Pivotal)
+- This markdown shows you how to integrate AppDynamics with Cloud Foundry (Stackato, Community or Pivotal)
 
 ### Connect to Cloud FOundry using the CF CLI
 
