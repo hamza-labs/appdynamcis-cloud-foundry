@@ -4,7 +4,7 @@
 
 #### Connect to Cloud Foundry using the CF CLI
 
-`cf login -a https://api.cf.xxxx.xx -u username -p ********** -o your_app -s dev`
+- `cf login -a https://api.cf.xxxx.xx -u username -p ********** -o your_app -s dev`
 
 #### create a file credentials.json with the following content
 
@@ -21,7 +21,7 @@
         
 #### Create app-dynamics user provided service
 
-`cf create-user-provided-service agent-app-dynamics -p credentials.json`
+- `cf create-user-provided-service agent-app-dynamics -p credentials.json`
 
 #### Change the manifest.yml to bind the service (this action should be done before the cf push !!!!!:)
 
@@ -37,11 +37,14 @@ here is an example of the manifest.yml
            - agent-app-dynamics
 
 #### Push your application to Cloud Foundry
-`cf push`
+
+- `cf push`
 
 #### Connect to your application and generate some monitoring data
-`https://your_app.io`
+
+- `https://your_app.io`
 
 #### Connect to appDynamics dashboard to see the result
-`https://your_appdynamics_host.com`
+
+- `https://your_appdynamics_host.com`
 
